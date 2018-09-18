@@ -133,3 +133,24 @@ footer {
         }
     }
 }
+
+@media(max-width:700px) {
+    header {
+
+        .nav-bar {
+            display: none;
+        }
+    }
+
+    .bloco-center {}
+
+    .text {
+        width: 314px !important;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
